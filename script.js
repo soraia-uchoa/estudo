@@ -19,4 +19,4 @@ function userDarkTheme() {
 //adicionar os eventos
 document.getElementById('lightBtn').addEventListener('click', useLighTheme)
 document.getElementById('darkBtn').addEventListener('click', userDarkTheme)
-
+document.getElementById('switchBtn').addEventListener('click', switchTheme)
